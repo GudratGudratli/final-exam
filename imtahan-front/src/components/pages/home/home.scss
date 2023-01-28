@@ -1,0 +1,244 @@
+.wellcome{
+    background-image: url('https://preview.colorlib.com/theme/oneschool/images/hero_1.jpg.webp');
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    // ----------
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .sendbtn{
+        background-color: #7971ea;
+        padding: 10px 30px;
+        border-radius: 20px;
+        cursor: pointer;
+        color: #fff;
+    }
+
+    .wellcome-inner{
+        width: 900px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        .inner-text{
+            width: 40%;
+            // -----
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 20px;
+            h1{
+                color: #fff;
+                font-size: 36px;
+                font-weight: 600;
+            }
+            p{
+                color: rgb(233, 233, 233);
+                font-weight: 500;
+                font-size: 18px;
+                
+            }
+        }
+        .signup-form{
+            width: 40%;
+            height: 250px;
+            background-color: #fff;
+            border-radius: 20px;
+            // ------
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+    }
+}
+
+@media screen and (max-width:900px) {
+    .wellcome{
+        .wellcome-inner{
+            width: 600px;
+            flex-direction: column;
+            .inner-text{
+                width: 45%;
+            }
+        }
+    }
+}
+// -----
+.program{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+    h2{
+        font-size: 48px;
+        font-weight: 600;
+    }
+    .education{
+        width: 1280px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        .education-img{
+            background-image: url('https://preview.colorlib.com/theme/oneschool/images/undraw_youtube_tutorial.svg');
+            width: 40%;
+            height: 450px;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .education-text{
+            width: 40%;
+        }
+    }
+    .strive{
+        width: 1280px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        .strive-img{
+            background-image: url('https://preview.colorlib.com/theme/oneschool/images/undraw_teaching.svg');
+            width: 40%;
+            height: 450px;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .strive-text{
+            width: 40%;
+        }
+    }
+}
+@media screen and (max-width:900px) {
+    .program{
+        flex-direction: column;
+        gap: 50px;
+        .education{
+            width: 900px;
+            flex-direction: column;
+            .education-img{
+                width: 60%;
+            }
+            .education-text{
+                width: 60%;
+            }
+        }
+        .strive{
+            width: 900px;
+            flex-direction: column;
+            .strive-img{
+                width: 60%;
+            }
+            .strive-text{
+                width: 60%;
+            }
+        }
+    }
+}
+// ----
+.teacher{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    h1{
+        font-size: 48px;
+        font-weight: 600;
+    }
+    .cards{
+        width: 900px;
+        border: gray 1px solid;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        .card{
+            width: 270px;
+            height: 300px;
+            background-color: gray;
+            // ----
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            // ----
+            margin-top: 10px;
+            margin-bottom: 10px;
+            img{
+                border-radius: 50%;
+                text-align: center;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:900px) {
+    .teacher{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .cards{
+            width: 550px;
+            border: gray 1px solid;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            .card{
+                width: 250px;
+                height: 300px;
+                background-color: gray;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+
+            }
+        }
+    }
+}
+// -----
+.message{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+    .message-inner{
+        width: 600px;
+        height: 300px;
+        // -----
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        h1{
+            font-size: 34px;
+            font-weight: 700;
+        }
+        p{
+            color: #808080;
+        }
+        .line{
+            display: flex;
+            flex-direction: row;
+            justify-content:space-around;
+        }
+    }
+    .sendbtn{
+        background-color: #7971ea;
+        padding: 10px 30px;
+        border-radius: 20px;
+        cursor: pointer;
+        color: #fff;
+    }
+}

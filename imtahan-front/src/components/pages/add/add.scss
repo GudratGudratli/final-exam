@@ -1,0 +1,22 @@
+.add-formik {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 90px;
+    flex-direction: column;
+
+    .formik-inner {
+        width: 600px;
+        height: auto;
+        background-color: gray;
+        padding: 50px 0px;
+        border-radius: 25px;
+        .form {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+            flex-direction: column;
+        }
+    }
+}
